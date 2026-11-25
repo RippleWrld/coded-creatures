@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #596 — Giant Oceanic Manta Ray",
+  "description": "Giant Oceanic Manta Ray (Mobula birostris). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x1858c20a. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/596.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/596.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#596",
+  "background_color": "030303",
+  "seed": "0x1858c20a",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Giant Oceanic Manta Ray"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Mobula birostris"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Reef"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Rune"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ember"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Bubbles"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 226,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

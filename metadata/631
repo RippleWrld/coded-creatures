@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #631 — Smilodon",
+  "description": "Smilodon (Smilodon fatalis). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x991552a9. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/631.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/631.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#631",
+  "background_color": "030303",
+  "seed": "0x991552a9",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Smilodon"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Smilodon fatalis"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Moonlit Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Frost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Snow"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 233,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

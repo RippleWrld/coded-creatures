@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #379 — Saiga Antelope",
+  "description": "Saiga Antelope (Saiga tatarica). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xf6d2d5a6. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/379.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/379.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#379",
+  "background_color": "030303",
+  "seed": "0xf6d2d5a6",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Saiga Antelope"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Saiga tatarica"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 394,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

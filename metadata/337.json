@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #337 — Komodo Dragon",
+  "description": "Komodo Dragon (Varanus komodoensis). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xe18b67fa. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/337.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/337.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#337",
+  "background_color": "030303",
+  "seed": "0xe18b67fa",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Komodo Dragon"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Varanus komodoensis"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Moonlit Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Code Rain"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Flux"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 67,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

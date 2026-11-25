@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #132 — Smilodon",
+  "description": "Smilodon (Smilodon fatalis). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x7b377094. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/132.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/132.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#132",
+  "background_color": "030303",
+  "seed": "0x7b377094",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Smilodon"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Smilodon fatalis"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Glyph"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Scan"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 222,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

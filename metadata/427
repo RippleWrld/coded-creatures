@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #427 — Grizzly Bear",
+  "description": "Grizzly Bear (Ursus arctos horribilis). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x2905515b. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/427.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/427.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#427",
+  "background_color": "030303",
+  "seed": "0x2905515b",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Grizzly Bear"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Ursus arctos horribilis"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Glyph"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 732,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

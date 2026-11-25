@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #92 — Greater Flamingo",
+  "description": "Greater Flamingo (Phoenicopterus roseus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xba1a904e. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/92.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/92.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#92",
+  "background_color": "030303",
+  "seed": "0xba1a904e",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Greater Flamingo"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Phoenicopterus roseus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Binary"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ember"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Rain"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 348,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

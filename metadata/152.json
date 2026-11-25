@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #152 — Humpback Anglerfish",
+  "description": "Humpback Anglerfish (Melanocetus johnsonii). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x53287f1b. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/152.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/152.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#152",
+  "background_color": "030303",
+  "seed": "0x53287f1b",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Humpback Anglerfish"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Melanocetus johnsonii"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Ledger"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Bubbles"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 313,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

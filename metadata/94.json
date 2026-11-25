@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #94 — King Cobra",
+  "description": "King Cobra (Ophiophagus hannah). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xc3b3ecc5. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/94.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/94.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#94",
+  "background_color": "030303",
+  "seed": "0xc3b3ecc5",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "King Cobra"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Ophiophagus hannah"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Moonlit Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Flux"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 448,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #302 — Ocean Sunfish",
+  "description": "Ocean Sunfish (Mola mola). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xc7ca1c80. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/302.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/302.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#302",
+  "background_color": "030303",
+  "seed": "0xc7ca1c80",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Ocean Sunfish"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Mola mola"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Flux"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 382,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

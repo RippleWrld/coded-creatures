@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #47 — African Lion",
+  "description": "African Lion (Panthera leo). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x8314dbe8. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/47.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/47.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#47",
+  "background_color": "030303",
+  "seed": "0x8314dbe8",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "African Lion"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Panthera leo"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Binary"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ember"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Snow"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 228,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

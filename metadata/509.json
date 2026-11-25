@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #509 — Red King Crab",
+  "description": "Red King Crab (Paralithodes camtschaticus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x7c5b8bcd. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/509.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/509.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#509",
+  "background_color": "030303",
+  "seed": "0x7c5b8bcd",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Red King Crab"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Paralithodes camtschaticus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Seafloor"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Ledger"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ember"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Flux"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 276,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

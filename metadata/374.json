@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #374 — Emperor Scorpion",
+  "description": "Emperor Scorpion (Pandinus imperator). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x3d1ef72e. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/374.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/374.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#374",
+  "background_color": "030303",
+  "seed": "0x3d1ef72e",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Emperor Scorpion"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Pandinus imperator"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Sand"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Binary"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Embers"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 17,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

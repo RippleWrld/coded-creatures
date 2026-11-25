@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #298 — Snow Leopard",
+  "description": "Snow Leopard (Panthera uncia). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xb53ca369. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/298.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/298.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#298",
+  "background_color": "030303",
+  "seed": "0xb53ca369",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Snow Leopard"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Panthera uncia"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Rune"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 145,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

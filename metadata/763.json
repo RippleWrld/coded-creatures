@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #763 — Stegosaurus",
+  "description": "Stegosaurus (Stegosaurus stenops). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xb753b6f0. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/763.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/763.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#763",
+  "background_color": "030303",
+  "seed": "0xb753b6f0",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Stegosaurus"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Stegosaurus stenops"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Moonlit Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 416,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

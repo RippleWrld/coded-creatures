@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #455 — Coelacanth",
+  "description": "Coelacanth (Latimeria chalumnae). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x329e8337. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/455.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/455.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#455",
+  "background_color": "030303",
+  "seed": "0x329e8337",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Coelacanth"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Latimeria chalumnae"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Hex"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Deep Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 113,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #472 — Common Octopus",
+  "description": "Common Octopus (Octopus vulgaris). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x5d054b6e. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/472.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/472.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#472",
+  "background_color": "030303",
+  "seed": "0x5d054b6e",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Common Octopus"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Octopus vulgaris"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Kelp Forest"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Code Rain"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 741,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

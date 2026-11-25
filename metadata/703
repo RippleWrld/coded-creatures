@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #703 — Pteranodon",
+  "description": "Pteranodon (Pteranodon longiceps). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x8b1914d8. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/703.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/703.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#703",
+  "background_color": "030303",
+  "seed": "0x8b1914d8",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Pteranodon"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Pteranodon longiceps"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Peaks"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Ledger"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Code Rain"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 26,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

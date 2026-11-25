@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #578 — Bottlenose Dolphin",
+  "description": "Bottlenose Dolphin (Tursiops truncatus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x6eb89abb. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/578.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/578.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#578",
+  "background_color": "030303",
+  "seed": "0x6eb89abb",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Bottlenose Dolphin"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Tursiops truncatus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Kelp Forest"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Scan"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 742,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

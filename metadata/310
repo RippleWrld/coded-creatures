@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #310 — Giant Isopod",
+  "description": "Giant Isopod (Bathynomus giganteus). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xd39853fc. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/310.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/310.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#310",
+  "background_color": "030303",
+  "seed": "0xd39853fc",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Giant Isopod"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Bathynomus giganteus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Seafloor"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Frost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Deep Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Scan"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 114,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

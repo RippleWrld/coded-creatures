@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #766 — Great Horned Owl",
+  "description": "Great Horned Owl (Bubo virginianus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x0fb15076. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/766.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/766.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#766",
+  "background_color": "030303",
+  "seed": "0x0fb15076",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Great Horned Owl"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Bubo virginianus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Peaks"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Rain"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 101,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

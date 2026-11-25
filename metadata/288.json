@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #288 — Emperor Scorpion",
+  "description": "Emperor Scorpion (Pandinus imperator). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x0a18f212. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/288.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/288.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#288",
+  "background_color": "030303",
+  "seed": "0x0a18f212",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Emperor Scorpion"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Pandinus imperator"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Sand"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Hex"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Frost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Rain"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 28,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

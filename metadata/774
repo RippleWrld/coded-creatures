@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #774 — Chambered Nautilus",
+  "description": "Chambered Nautilus (Nautilus pompilius). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x8977c6cf. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/774.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/774.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#774",
+  "background_color": "030303",
+  "seed": "0x8977c6cf",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Chambered Nautilus"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Nautilus pompilius"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Reef"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Bubbles"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Scan"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 217,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

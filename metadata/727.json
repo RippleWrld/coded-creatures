@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #727 — White Rhinoceros",
+  "description": "White Rhinoceros (Ceratotherium simum). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x69358a57. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/727.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/727.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#727",
+  "background_color": "030303",
+  "seed": "0x69358a57",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "White Rhinoceros"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Ceratotherium simum"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Rune"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Frost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Embers"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 369,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

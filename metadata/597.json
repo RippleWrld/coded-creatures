@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #597 — Green Sea Turtle",
+  "description": "Green Sea Turtle (Chelonia mydas). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x69f6a00d. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/597.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/597.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#597",
+  "background_color": "030303",
+  "seed": "0x69f6a00d",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Green Sea Turtle"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Chelonia mydas"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Reef"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Hex"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 679,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

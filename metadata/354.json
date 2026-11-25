@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #354 — Lion's Mane Jellyfish",
+  "description": "Lion's Mane Jellyfish (Cyanea capillata). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x8c980274. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/354.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/354.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#354",
+  "background_color": "030303",
+  "seed": "0x8c980274",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Lion's Mane Jellyfish"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Cyanea capillata"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Scan"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 409,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

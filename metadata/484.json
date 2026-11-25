@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #484 — Grey Wolf",
+  "description": "Grey Wolf (Canis lupus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x76e03220. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/484.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/484.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#484",
+  "background_color": "030303",
+  "seed": "0x76e03220",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Grey Wolf"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Canis lupus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Ledger"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 693,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

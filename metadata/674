@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #674 — Great Hammerhead",
+  "description": "Great Hammerhead (Sphyrna mokarran). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x7b3927b8. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/674.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/674.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#674",
+  "background_color": "030303",
+  "seed": "0x7b3927b8",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Great Hammerhead"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Sphyrna mokarran"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Ledger"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Code Rain"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 499,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

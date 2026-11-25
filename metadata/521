@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #521 — White Rhinoceros",
+  "description": "White Rhinoceros (Ceratotherium simum). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x11917a40. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/521.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/521.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#521",
+  "background_color": "030303",
+  "seed": "0x11917a40",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "White Rhinoceros"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Ceratotherium simum"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Rune"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 635,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

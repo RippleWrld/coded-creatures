@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #669 — Atlantic Horseshoe Crab",
+  "description": "Atlantic Horseshoe Crab (Limulus polyphemus). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x4ee91530. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/669.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/669.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#669",
+  "background_color": "030303",
+  "seed": "0x4ee91530",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Atlantic Horseshoe Crab"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Limulus polyphemus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Seafloor"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Ledger"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Frost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Deep Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 173,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

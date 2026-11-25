@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #86 — Ruby-throated Hummingbird",
+  "description": "Ruby-throated Hummingbird (Archilochus colubris). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xa96f1b8c. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/86.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/86.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#86",
+  "background_color": "030303",
+  "seed": "0xa96f1b8c",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Ruby-throated Hummingbird"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Archilochus colubris"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Moonrise"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Binary"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 20,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

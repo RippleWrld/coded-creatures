@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #413 — Woolly Mammoth",
+  "description": "Woolly Mammoth (Mammuthus primigenius). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xdf1a1a46. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/413.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/413.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#413",
+  "background_color": "030303",
+  "seed": "0xdf1a1a46",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Woolly Mammoth"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Mammuthus primigenius"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Moonlit Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Scan"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 237,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

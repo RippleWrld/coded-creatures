@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #625 — Bald Eagle",
+  "description": "Bald Eagle (Haliaeetus leucocephalus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xb101c6e6. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/625.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/625.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#625",
+  "background_color": "030303",
+  "seed": "0xb101c6e6",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Bald Eagle"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Haliaeetus leucocephalus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Peaks"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Ledger"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Flux"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 57,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

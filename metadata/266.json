@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #266 — Common Octopus",
+  "description": "Common Octopus (Octopus vulgaris). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x8b93bebb. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/266.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/266.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#266",
+  "background_color": "030303",
+  "seed": "0x8b93bebb",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Common Octopus"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Octopus vulgaris"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Reef"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Rune"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ember"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Scan"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 559,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

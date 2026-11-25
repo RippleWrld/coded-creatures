@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #196 — Black Panther",
+  "description": "Black Panther (Panthera pardus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xc3bd5f72. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/196.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/196.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#196",
+  "background_color": "030303",
+  "seed": "0xc3bd5f72",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Black Panther"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Panthera pardus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 770,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

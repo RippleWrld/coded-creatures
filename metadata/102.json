@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #102 — Great Horned Owl",
+  "description": "Great Horned Owl (Bubo virginianus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xc42a20bb. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/102.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/102.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#102",
+  "background_color": "030303",
+  "seed": "0xc42a20bb",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Great Horned Owl"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Bubo virginianus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Peaks"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Ledger"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ember"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 141,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

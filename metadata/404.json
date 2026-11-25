@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #404 — African Lion",
+  "description": "African Lion (Panthera leo). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x27a942c5. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/404.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/404.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#404",
+  "background_color": "030303",
+  "seed": "0x27a942c5",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "African Lion"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Panthera leo"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ember"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 765,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

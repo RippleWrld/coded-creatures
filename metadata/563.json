@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #563 — African Elephant",
+  "description": "African Elephant (Loxodonta africana). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x22e3bd1a. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/563.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/563.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#563",
+  "background_color": "030303",
+  "seed": "0x22e3bd1a",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "African Elephant"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Loxodonta africana"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 736,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

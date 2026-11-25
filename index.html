@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CODED CREATURES</title>
+<style>
+/* VOICE: quiet, precise, nocturnal — a specimen archive read on a terminal.
+   IDEA: a natural-history catalogue whose specimens are living code.
+   PICTURE: a live ASCII creature, rendered by the real engine, filling the first screen.
+   COLOUR and TYPE: deep black ground, bone-white glyphs, one restrained orange; JetBrains Mono for specimen data, Inter for prose.
+   LAYOUT: full-bleed live specimen with title over it, stats strip, filterable archive grid, engine notes, launch status. */
+@font-face{font-family:CCMono;src:url(ccmono.woff) format("woff")}
+@font-face{font-family:CCMonoBold;src:url(ccmono-bold.woff) format("woff")}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap');
+:root{color-scheme:dark;--bg:#030303;--panel:#0b0b0b;--line:#1d1d1d;--ink:#ecE8de;--mute:#8d8a84;--acc:#ff8e2c}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+a{color:var(--acc)}
+.mono{font-family:"JetBrains Mono",CCMono,monospace}
+nav{position:sticky;top:0;z-index:5;display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding:12px max(5vw,16px);background:rgba(3,3,3,.86);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav b{font-family:"JetBrains Mono",monospace;letter-spacing:.04em;margin-right:auto}
+nav a{color:var(--mute);text-decoration:none;font-size:14px;padding:10px 0}nav a:hover{color:var(--ink)}
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(16px,3vw,48px);align-items:center;padding:clamp(20px,4vw,56px) max(5vw,16px);max-width:1340px;margin:auto}
+.hero h1{font:700 clamp(40px,6.4vw,86px)/1 "JetBrains Mono",monospace;margin:0 0 18px;letter-spacing:-.02em}
+.hero h1 span{color:var(--acc)}
+.hero p{color:var(--mute);max-width:46ch;font-size:17px}
+.stage{position:relative;aspect-ratio:1;border:1px solid var(--line);background:#000}
+.stage canvas{position:absolute;inset:0;width:100%;height:100%}
+.cap{position:absolute;left:12px;bottom:10px;right:12px;display:flex;justify-content:space-between;gap:8px;font:12px "JetBrains Mono",monospace;color:var(--mute);pointer-events:none}
+.cap i{color:var(--acc);font-style:normal}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.btn{min-height:44px;padding:0 18px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:14px "JetBrains Mono",monospace;cursor:pointer;display:inline-flex;align-items:center;text-decoration:none}
+.btn.p{background:var(--acc);border-color:var(--acc);color:#120800}
+.btn:focus-visible,select:focus-visible,input:focus-visible,.card:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--line)}
+.stats div{padding:22px max(2vw,12px);border-right:1px solid var(--line)}.stats div:last-child{border:0}
+.stats b{display:block;font:700 clamp(26px,3.6vw,44px)/1 "JetBrains Mono",monospace}.stats span{color:var(--mute);font-size:14px}
+.band{padding:clamp(28px,4vw,64px) max(5vw,16px);max-width:1340px;margin:auto}
+h2{font:700 clamp(28px,3.2vw,40px)/1.1 "JetBrains Mono",monospace;margin:0 0 10px}
+.lead{color:var(--mute);max-width:70ch;margin:0 0 22px}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px;align-items:center}
+select,input{min-height:44px;background:var(--panel);color:var(--ink);border:1px solid var(--line);padding:0 12px;font:16px Inter,sans-serif}
+#count{color:var(--mute);font:13px "JetBrains Mono",monospace;margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.card{background:#000;border:1px solid var(--line);cursor:pointer;padding:0;color:inherit;text-align:left;font:inherit}
+.card:hover{border-color:#3a3a3a}
+.card canvas{display:block;width:100%;aspect-ratio:1;background:#000}
+.card div{padding:8px 10px;font:12px/1.4 "JetBrains Mono",monospace;display:flex;justify-content:space-between;gap:6px}
+.card div span{color:var(--mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.r-Legendary{color:var(--acc)!important}.r-Epic{color:#e8c9a8!important}
+.more{display:flex;justify-content:center;margin-top:18px}
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.cols h3{font:700 16px "JetBrains Mono",monospace;margin:0 0 6px}.cols p{color:var(--mute);margin:0}
+.status{border:1px solid var(--line);background:var(--panel);padding:22px}
+.status ul{margin:10px 0 0;padding-left:18px;color:var(--mute)}.status li b{color:var(--ink)}
+code{font-family:"JetBrains Mono",monospace;font-size:13px;overflow-wrap:anywhere;color:#d8d2c6}
+dialog{border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:0;width:min(1100px,96vw);max-height:94vh}
+dialog::backdrop{background:rgba(0,0,0,.82)}
+.dv{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}
+.dv .stage{border:0}
+.meta{padding:22px;overflow:auto;max-height:94vh}
+.meta h3{font:700 24px/1.15 "JetBrains Mono",monospace;margin:0}.meta em{color:var(--mute)}
+table{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px}td{padding:7px 0;border-bottom:1px solid var(--line)}td:last-child{text-align:right;font-family:"JetBrains Mono",monospace}
+footer{padding:28px max(5vw,16px);color:var(--mute);font-size:13px;border-top:1px solid var(--line)}
+@media(max-width:860px){.hero,.dv{grid-template-columns:minmax(0,1fr)}.cols{grid-template-columns:minmax(0,1fr)}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.stats div:nth-child(2){border-right:0}}
+@media(max-width:600px){nav{gap:12px}nav b{font-size:13px}nav a{font-size:13px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}#count{width:100%;margin:0}}
+@media(prefers-reduced-motion:reduce){.stage canvas{animation:none}}
+</style>
+</head>
+<body>
+<nav><b>CODED CREATURES</b><a href="#archive">Archive</a><a href="#engine">Engine</a><a href="#launch">Launch</a></nav>
+
+<header class="hero">
+  <div>
+    <h1>CODED<br><span>CREATURES</span></h1>
+    <p>777 real animal species, each rebuilt entirely from animated ASCII characters. No illustrations, no overlays: the characters are the animal. Every animal has its own code. Every code creates its own identity.</p>
+    <div class="btns"><a class="btn p" href="#archive">Explore the 777</a><button class="btn" id="next">Next specimen →</button></div>
+  </div>
+  <div class="stage" id="heroStage"><canvas id="hero"></canvas><div class="cap"><span id="heroName">Loading engine…</span><i id="heroId"></i></div></div>
+</header>
+
+<section class="stats">
+  <div><b>777</b><span>unique animated artworks</span></div>
+  <div><b>57</b><span>real species</span></div>
+  <div><b id="org">—</b><span>ORGANIC</span></div>
+  <div><b id="unk">—</b><span>UNKNOWN: rare, deep-sea, prehistoric</span></div>
+</section>
+
+<section class="band" id="archive">
+  <h2>The archive</h2>
+  <p class="lead">Every card is drawn live in your browser by the same engine that generated the collection — from nothing but its token id, species and seed. Open one to watch it move.</p>
+  <div class="filters">
+    <select id="fCat" aria-label="Category"><option value="">All categories</option><option>ORGANIC</option><option>UNKNOWN</option></select>
+    <select id="fSp" aria-label="Species"><option value="">All species</option></select>
+    <select id="fRar" aria-label="Rarity"><option value="">All rarities</option><option>Legendary</option><option>Epic</option><option>Rare</option><option>Uncommon</option><option>Common</option></select>
+    <select id="fSort" aria-label="Sort"><option value="id">Token id</option><option value="rank">Rarity rank</option></select>
+    <input id="fId" type="number" min="1" max="777" placeholder="Token #" aria-label="Jump to token id" style="width:120px">
+    <span id="count"></span>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="more"><button class="btn" id="moreBtn">Show more</button></div>
+</section>
+
+<section class="band" id="engine">
+  <h2>How the engine works</h2>
+  <p class="lead">A custom renderer, not image generation. Each species is a procedural rig of signed-distance shapes with its own anatomy and motion; the rasterizer turns depth, light and contour direction into characters.</p>
+  <div class="cols">
+    <div><h3>Shape → glyph</h3><p>Contours become <code>/ | \ -</code> by their direction, lit volumes become dense glyphs like <code>$ 8 B @</code>, shadows thin out to <code>. : '</code>. White, grey and a restrained orange — nothing else.</p></div>
+    <div><h3>Seamless motion</h3><p>Breathing, wingbeats, swimming waves, tail swings and glyph drift are all functions of one loop phase with whole-number frequencies, so every loop closes perfectly. Verified for all 777 tokens.</p></div>
+    <div><h3>Verified uniqueness</h3><p>Tokens of the same species must differ in at least two structural traits — never just colour — and pass a perceptual-hash check plus visual QC: subject in frame, eye visible, coverage in range.</p></div>
+  </div>
+</section>
+
+<section class="band" id="launch">
+  <h2>Launch status</h2>
+  <div class="status">
+    <p style="margin:0">Ethereum · ERC-721 · OpenSea drop · 777 supply · mint price 0.1 ETH. Follow <a href="https://x.com/ripplewrld">@ripplewrld</a> on X for the launch date.</p>
+    <ul>
+      <li><b>Supply:</b> exactly 777, hard-capped in the contract</li>
+      <li><b>Creator earnings:</b> 3%</li>
+      <li><b>Provenance (SHA-256 of all 777 images):</b> <code id="prov">a80ed8dbf8924cae17c47855de01d1a07465b20d4224ddaaeb41751870a48a17</code></li>
+    </ul>
+  </div>
+</section>
+
+<footer>CODED CREATURES — every specimen is a real animal species. Generated with the CODED CREATURES engine v1. · <a href="https://x.com/ripplewrld">X: @ripplewrld</a></footer>
+
+<dialog id="dlg"><div class="dv"><div class="stage"><canvas id="big"></canvas></div><div class="meta"><div style="display:flex;justify-content:space-between;gap:10px"><span class="mono" id="mId"></span><button class="btn" id="close" aria-label="Close">Close</button></div><h3 id="mName"></h3><em id="mLatin"></em><table id="mTable"></table></div></div></dialog>
+
+<script src="engine.min.js"></script>
+<script>
+{
+const F = ['id','species','seed','cat','rarity','rank','name','latin','charset','palette','env','signal','framing','density','tempo','glow','facing','scene'];
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const mk = (w, h) => { const c = document.createElement('canvas'); c.width = w; c.height = h; return c; };
+const atlases = {};
+function atlasFor(cfg, W) {
+  const k = cfg.style.charset + cfg.style.palette + cfg.cols + W;
+  const fs = Math.round((W / cfg.rows) * 0.92);
+  if (!atlases[k]) atlases[k] = CCrender.makeAtlas(mk, `${fs}px CCMono, monospace`, W / cfg.cols, W / cfg.rows, CCrender.PALETTES[cfg.style.palette], CCcompose.allChars(cfg), `bold ${fs}px CCMonoBold, monospace`);
+  return atlases[k];
+}
+function paint(canvas, cfg, phi, W) {
+  if (canvas.width !== W) { canvas.width = W; canvas.height = W; }
+  const g = CCcompose.frame(cfg, phi);
+  CCrender.draw(canvas.getContext('2d'), g, { W, H: W, palette: CCrender.PALETTES[cfg.style.palette], atlas: atlasFor(cfg, W), glowCanvas: cfg.style.glow ? mk(cfg.cols, cfg.rows) : null, glowAmt: cfg.style.glow, blur: Math.round((W / cfg.cols) * 1.6) });
+}
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+function animate(canvas, cfg, sizeFn) {
+  let stop = false, last = 0; const t0 = performance.now();
+  const tick = (now) => { if (stop) return; requestAnimationFrame(tick); if (now - last < 15) return; last = now; paint(canvas, cfg, reduce ? 0.25 : (((now - t0) / 1000) / cfg.loopSec) % 1, sizeFn()); };
+  requestAnimationFrame(tick); return () => { stop = true; };
+}
+const cfgOf = (t) => CCtraits.buildConfig(t.id, t.species, t.seed);
+const sz = (el) => Math.min(1200, Math.round(el.clientWidth * Math.min(2, devicePixelRatio || 1)));
+
+let ALL = [], view = [], shown = 0;
+const grid = document.getElementById('grid');
+const queue = []; let pumping = false;
+function pump() { pumping = true; const t0 = performance.now(); while (queue.length && performance.now() - t0 < 24) { const c = queue.shift(); paint(c, cfgOf(ALL[+c.dataset.i]), 0.25, 300); } if (queue.length) setTimeout(pump, 0); else pumping = false; }
+const io = new IntersectionObserver((es) => { for (const e of es) if (e.isIntersecting) { io.unobserve(e.target); queue.push(e.target); } if (!pumping) setTimeout(pump, 0); }, { rootMargin: '300px' });
+function card(t, i) { return `<button class="card" data-i="${i}" aria-label="Open #${t.id} ${esc(t.name)}"><canvas data-i="${i}" width="300" height="300"></canvas><div><b>#${t.id}</b><span class="r-${esc(t.rarity)}">${esc(t.name)}</span></div></button>`; }
+function render(reset) {
+  const cat = fCat.value, sp = fSp.value, rar = fRar.value, srt = fSort.value;
+  if (reset) {
+    view = ALL.map((t, i) => [t, i]).filter(([t]) => (!cat || t.cat === cat) && (!sp || t.name === sp) && (!rar || t.rarity === rar));
+    if (srt === 'rank') view.sort((a, b) => a[0].rank - b[0].rank);
+    grid.innerHTML = ''; shown = 0;
+  }
+  const next = view.slice(shown, shown + 48); shown += next.length;
+  grid.insertAdjacentHTML('beforeend', next.map(([t, i]) => card(t, i)).join(''));
+  grid.querySelectorAll('canvas:not([data-o])').forEach((c) => { c.dataset.o = 1; io.observe(c); });
+  document.getElementById('count').textContent = `${view.length} of 777 shown`;
+  moreBtn.style.display = shown < view.length ? '' : 'none';
+}
+const dlg = document.getElementById('dlg'); let stopBig = null;
+function open(t) {
+  const cfg = cfgOf(t);
+  document.getElementById('mId').textContent = `#${t.id} · rank ${t.rank}/777`;
+  document.getElementById('mName').textContent = t.name;
+  document.getElementById('mLatin').textContent = t.latin;
+  const rows = [['Category', t.cat], ['Rarity', t.rarity], ['Scene', t.scene], ['Charset', t.charset], ['Palette', t.palette], ['Environment', t.env], ['Signal', t.signal], ['Framing', t.framing], ['Density', t.density], ['Tempo', `${t.tempo} · ${cfg.loopSec}s loop`], ['Glow', t.glow], ['Facing', t.facing], ['Seed', cfg.seed]];
+  document.getElementById('mTable').innerHTML = rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join('');
+  dlg.showModal();
+  const big = document.getElementById('big');
+  if (stopBig) stopBig(); stopBig = animate(big, cfg, () => sz(big));
+}
+dlg.addEventListener('close', () => { if (stopBig) stopBig(); stopBig = null; });
+document.getElementById('close').onclick = () => dlg.close();
+grid.addEventListener('click', (e) => { const b = e.target.closest('.card'); if (b) open(ALL[+b.dataset.i]); });
+for (const s of [fCat, fSp, fRar, fSort]) s.addEventListener('change', () => render(true));
+moreBtn.onclick = () => render(false);
+fId.addEventListener('change', () => { const n = +fId.value; if (n >= 1 && n <= 777) open(ALL[n - 1]); });
+
+// hero: cycle through featured specimens
+let heroStop = null, heroIdx = 0, heroList = [];
+function showHero() {
+  const t = heroList[heroIdx % heroList.length], cv = document.getElementById('hero');
+  document.getElementById('heroName').textContent = `${t.name} — ${t.latin}`;
+  document.getElementById('heroId').textContent = `#${t.id} · ${t.cat}`;
+  if (heroStop) heroStop(); heroStop = animate(cv, cfgOf(t), () => sz(cv));
+}
+document.getElementById('next').onclick = () => { heroIdx++; showHero(); };
+
+Promise.all([fetch('collection.json').then((r) => r.json()), document.fonts ? Promise.all([document.fonts.load('16px CCMono'), document.fonts.load('bold 16px CCMonoBold')]).catch(() => {}) : 0]).then(([rows]) => {
+  ALL = rows.map((r) => Object.fromEntries(F.map((k, i) => [k, r[i]])));
+  document.getElementById('org').textContent = ALL.filter((t) => t.cat === 'ORGANIC').length;
+  document.getElementById('unk').textContent = ALL.filter((t) => t.cat === 'UNKNOWN').length;
+  [...new Set(ALL.map((t) => t.name))].sort().forEach((n) => fSp.insertAdjacentHTML('beforeend', `<option>${esc(n)}</option>`));
+  const pick = ['Close', 'Full'];
+  heroList = ALL.filter((t) => t.framing === 'Full' && t.glow !== 'Off').filter((t, i, a) => a.findIndex((o) => o.name === t.name) === i).slice(0, 24);
+  heroIdx = Math.floor(Math.random() * heroList.length); showHero();
+  setInterval(() => { if (!dlg.open && !document.hidden) { heroIdx++; showHero(); } }, 12000);
+  render(true);
+  const openHash = () => { const n = parseInt((location.hash || '').slice(1), 10); if (n >= 1 && n <= 777) open(ALL[n - 1]); };
+  openHash(); addEventListener('hashchange', openHash);
+}).catch(() => { document.getElementById('heroName').textContent = 'Could not load the collection data.'; });
+}
+</script>
+</body>
+</html>

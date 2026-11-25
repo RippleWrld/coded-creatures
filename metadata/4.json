@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #4 — Red Fox",
+  "description": "Red Fox (Vulpes vulpes). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x22f7baf3. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/4.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/4.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#4",
+  "background_color": "030303",
+  "seed": "0x22f7baf3",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Red Fox"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Vulpes vulpes"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Glyph"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Frost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Embers"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 355,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

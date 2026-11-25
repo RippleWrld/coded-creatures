@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #466 — Red Deer Stag",
+  "description": "Red Deer Stag (Cervus elaphus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x1d88d735. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/466.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/466.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#466",
+  "background_color": "030303",
+  "seed": "0x1d88d735",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Red Deer Stag"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Cervus elaphus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Moonlit Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Scan"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 586,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

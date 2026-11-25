@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #192 — Great White Shark",
+  "description": "Great White Shark (Carcharodon carcharias). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x5425173a. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/192.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/192.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#192",
+  "background_color": "030303",
+  "seed": "0x5425173a",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Great White Shark"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Carcharodon carcharias"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Kelp Forest"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Code Rain"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 627,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

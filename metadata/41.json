@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #41 — Orca",
+  "description": "Orca (Orcinus orca). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x99e4faa2. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/41.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/41.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#41",
+  "background_color": "030303",
+  "seed": "0x99e4faa2",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Orca"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Orcinus orca"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Rune"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Frost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Bubbles"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 484,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

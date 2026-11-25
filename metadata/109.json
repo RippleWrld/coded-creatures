@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #109 — Arabian Horse",
+  "description": "Arabian Horse (Equus ferus caballus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x1c416013. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/109.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/109.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#109",
+  "background_color": "030303",
+  "seed": "0x1c416013",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Arabian Horse"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Equus ferus caballus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Moonlit Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Glyph"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Embers"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Flux"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 93,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

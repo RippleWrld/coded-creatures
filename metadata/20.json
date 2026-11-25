@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #20 — Saltwater Crocodile",
+  "description": "Saltwater Crocodile (Crocodylus porosus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x04466d65. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/20.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/20.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#20",
+  "background_color": "030303",
+  "seed": "0x04466d65",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Saltwater Crocodile"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Crocodylus porosus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Rune"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ember"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Embers"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 194,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

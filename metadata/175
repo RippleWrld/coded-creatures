@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #175 — King Cobra",
+  "description": "King Cobra (Ophiophagus hannah). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xf3aa5b19. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/175.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/175.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#175",
+  "background_color": "030303",
+  "seed": "0xf3aa5b19",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "King Cobra"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Ophiophagus hannah"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Rune"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Scan"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 555,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

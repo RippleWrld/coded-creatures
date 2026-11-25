@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #769 — Bengal Tiger",
+  "description": "Bengal Tiger (Panthera tigris tigris). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x066fad55. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/769.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/769.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#769",
+  "background_color": "030303",
+  "seed": "0x066fad55",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Bengal Tiger"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Panthera tigris tigris"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Moonlit Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Binary"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Coarse"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 447,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

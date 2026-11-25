@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #572 — European Hare",
+  "description": "European Hare (Lepus europaeus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x3907c5ae. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/572.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/572.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#572",
+  "background_color": "030303",
+  "seed": "0x3907c5ae",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "European Hare"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Lepus europaeus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Plain"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 777,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #496 — Orca",
+  "description": "Orca (Orcinus orca). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xfdabff5d. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/496.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/496.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#496",
+  "background_color": "030303",
+  "seed": "0xfdabff5d",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Orca"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Orcinus orca"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Rune"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 591,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #582 — Trilobite",
+  "description": "Trilobite (Paradoxides gracilis). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x0410f88f. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/582.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/582.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#582",
+  "background_color": "030303",
+  "seed": "0x0410f88f",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Trilobite"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Paradoxides gracilis"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Sand"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Binary"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Stars"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Flux"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 4,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 12,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

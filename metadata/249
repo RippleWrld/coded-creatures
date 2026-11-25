@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #249 — Reticulated Giraffe",
+  "description": "Reticulated Giraffe (Giraffa reticulata). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xdc6af98e. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/249.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/249.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#249",
+  "background_color": "030303",
+  "seed": "0xdc6af98e",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Reticulated Giraffe"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Giraffa reticulata"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Ridge"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Hex"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 634,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #720 — Humpback Whale",
+  "description": "Humpback Whale (Megaptera novaeangliae). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0xa7320b6b. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/720.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/720.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#720",
+  "background_color": "030303",
+  "seed": "0xa7320b6b",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Humpback Whale"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Megaptera novaeangliae"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Deep Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Flux"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 673,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

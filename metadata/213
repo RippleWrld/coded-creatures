@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #213 — Swordfish",
+  "description": "Swordfish (Xiphias gladius). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x9680992c. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/213.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/213.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#213",
+  "background_color": "030303",
+  "seed": "0x9680992c",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Swordfish"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Xiphias gladius"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Ledger"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Frost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Bubbles"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 8,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 694,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

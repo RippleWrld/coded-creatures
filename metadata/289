@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #289 — Red King Crab",
+  "description": "Red King Crab (Paralithodes camtschaticus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x29380f50. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/289.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/289.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#289",
+  "background_color": "030303",
+  "seed": "0x29380f50",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Red King Crab"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Paralithodes camtschaticus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Stone"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Deep Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Full"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Bright"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 9,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

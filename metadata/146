@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #146 — Dunkleosteus",
+  "description": "Dunkleosteus (Dunkleosteus terrelli). A rare, ancient or deep-dwelling real species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x9f9a3e94. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/146.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/146.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#146",
+  "background_color": "030303",
+  "seed": "0x9f9a3e94",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "UNKNOWN"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Dunkleosteus"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Dunkleosteus terrelli"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Abyss"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Terminal"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Frost"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Deep Dust"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Living"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Distant"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Right"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 414,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}

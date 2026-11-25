@@ -1,0 +1,78 @@
+{
+  "name": "CODED CREATURES #552 — Koi",
+  "description": "Koi (Cyprinus rubrofuscus). A real-world species rebuilt entirely from animated ASCII characters by the CODED CREATURES engine. Seed 0x54cc7d88. Every animal has its own code. Every code creates its own identity.",
+  "image": "https://ripplewrld.github.io/coded-creatures/gifs/552.gif",
+  "animation_url": "https://ripplewrld.github.io/coded-creatures/animations/552.html",
+  "external_url": "https://ripplewrld.github.io/coded-creatures/#552",
+  "background_color": "030303",
+  "seed": "0x54cc7d88",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "ORGANIC"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Koi"
+    },
+    {
+      "trait_type": "Scientific Name",
+      "value": "Cyprinus rubrofuscus"
+    },
+    {
+      "trait_type": "Scene",
+      "value": "Reef"
+    },
+    {
+      "trait_type": "Charset",
+      "value": "Binary"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "Ember"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Bubbles"
+    },
+    {
+      "trait_type": "Signal",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Framing",
+      "value": "Close"
+    },
+    {
+      "trait_type": "Facing",
+      "value": "Left"
+    },
+    {
+      "trait_type": "Density",
+      "value": "Fine"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Glow",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Loop Seconds",
+      "value": 6,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Rarity Rank",
+      "value": 443,
+      "display_type": "number",
+      "max_value": 777
+    }
+  ]
+}
